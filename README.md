@@ -13,7 +13,7 @@ Calendrier des matchs à venir
 Résultats passés
 Mode sombre / clair
 Système de comptes utilisateurs
-Site disponible en plusieurs langues
+Site disponible en plusieurs langues (2)
 Ajout d’équipes ou compétitions en favoris
 Affichage des scores en temps réel
 Ajout possible de nouveaux sports ou fonctionnalités
