@@ -8,3 +8,39 @@ background-color: #346cc5;
 color: white;
 font-family: Arial, Helvetica, sans-serif;
 }
+.main-nav ul {
+
+display: flex; /* rend la liste en ligne (horizontale) */
+
+gap: 16px; /* espace entre les items */
+
+padding: 0; /* enlève le padding par défaut de la liste */
+
+margin: 12px 0; /* espace au-dessus et en dessous du menu */
+
+list-style: none; /* enlève les puces */
+
+justify-content: center;/* centre le menu horizontalement */
+
+}
+
+.main-nav a {
+
+text-decoration: none; /* enlève le soulignement du lien */
+
+color: #bfc9d6; /* couleur du texte du lien */
+
+padding: 6px 10px; /* espace cliquable autour du texte */
+
+border-radius: 6px; /* coins arrondis pour l'effet bouton */
+
+}
+
+.main-nav a:hover {
+
+background: rgba(255,255,255,0.04); /* petit effet au survol */
+
+color: #ffcc00; /* change la couleur au survol */
+
+}
+}
