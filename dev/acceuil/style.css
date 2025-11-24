@@ -9,16 +9,16 @@ color: white;
 font-family: Arial, Helvetica, sans-serif;
 }
 .main-nav ul {
-  display: flex;            /* menu horizontal */
-  gap: 16px;                /* espace entre items */
+  display: flex;            
+  gap: 16px;               
   padding: 0;
   margin: 12px 0;
   list-style: none;
-  justify-content: center;  /* centrer le menu */
+  justify-content: center; 
 }
 
 .main-nav a {
-  text-decoration: none;    /* enlève le soulignement */
+  text-decoration: none;    
   color: #bfc9d6;
   padding: 6px 10px;
   border-radius: 6px;
@@ -36,11 +36,9 @@ font-family: Arial, Helvetica, sans-serif;
   padding: 6px 8px;
 }
 
-/* ---------------------- */
-/* Sections / pages */
-/* ---------------------- */
+
 .page {
-  display: none;            /* toutes les pages cachées par défaut */
+  display: none;            
   padding: 12px;
   margin-top: 18px;
   background: rgba(255,255,255,0.02);
@@ -48,14 +46,12 @@ font-family: Arial, Helvetica, sans-serif;
 }
 
 .page.active {
-  display: block;           /* page visible */
+  display: block;           
 }
 
-/* ---------------------- */
-/* Liste des équipes */
-/* ---------------------- */
+
 .team-list {
-  list-style: none;       /* enlève les puces */
+  list-style: none;       
   padding: 0;
 }
 
@@ -64,10 +60,19 @@ font-family: Arial, Helvetica, sans-serif;
   margin: 6px 0;
   background: rgba(255,255,255,0.02);
   border-radius: 6px;
-  cursor: pointer;        /* visuel cliquable */
+  cursor: pointer;        
   transition: background 0.2s;
 }
 
 .team-list li:hover {
   background: rgba(255,255,255,0.05);
+}
+
+.logo {
+  width: 100PX;
+  display: block;
+  margin: 0 auto 10px;
+  height: 100px;           
+  border-radius: 100%;
+  object-fit: cover;
 }
