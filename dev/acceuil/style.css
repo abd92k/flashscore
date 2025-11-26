@@ -79,3 +79,71 @@ font-family: Arial, Helvetica, sans-serif;
   object-fit: cover;
 }
 
+#sportmonks-match {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f4f6f8;
+    padding: 15px;
+    border-radius: 10px;
+    color: #222;
+}
+
+.league {
+    border: none;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.league h2, .league h3 {
+    color: #1a73e8;
+    margin-bottom: 10px;
+}
+
+.match-card {
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 12px;
+    margin: 8px 0;
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.match-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+    background-color: #e6f0ff;
+}
+
+.past-match {
+    background-color: #f0f0f0;
+    cursor: default;
+}
+
+.match-info {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.match-name {
+    font-weight: bold;
+    color: #333;
+}
+
+.match-time {
+    font-size: 0.9em;
+    color: #555;
+}
+
+#match-stats {
+    margin-top: 20px;
+    padding: 15px;
+    border: 1px solid #aaa;
+    border-radius: 10px;
+    background-color: #fff3cd;
+}
+
