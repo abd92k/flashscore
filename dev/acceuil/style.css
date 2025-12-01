@@ -79,7 +79,7 @@ font-family: Arial, Helvetica, sans-serif;
   object-fit: cover;
 }
 
-/* Conteneur global */
+
 .champ-select-big {
     width: 90%;
     max-width: 1000px;
@@ -87,21 +87,21 @@ font-family: Arial, Helvetica, sans-serif;
     text-align: center;
 }
 
-/* Titre */
+
 .cs-title {
     font-size: 26px;
     font-weight: bold;
     margin-bottom: 25px;
 }
 
-/* Grille 2 colonnes */
+
 .champ-grid-big {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 25px;
 }
 
-/* Card */
+
 .champ-card {
     background: #ffffff;
     border-radius: 15px;
@@ -115,13 +115,13 @@ font-family: Arial, Helvetica, sans-serif;
     border: 2px solid transparent;
 }
 
-/* Effet survol */
+
 .champ-card:hover {
     transform: translateY(-4px);
     border-color: #007bff;
 }
 
-/* Logo */
+
 .champ-logo {
     width: 200px;
     height: 120px;
@@ -129,7 +129,7 @@ font-family: Arial, Helvetica, sans-serif;
     margin-bottom: 12px;
 }
 
-/* Nom du championnat */
+
 .champ-name {
     font-size: 20px;
     font-weight: 600;
